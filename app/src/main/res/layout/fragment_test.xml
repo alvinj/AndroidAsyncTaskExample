@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/myScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+    <!-- fill the screen with a textview. the app will write text into it. -->
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/default_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</ScrollView>
